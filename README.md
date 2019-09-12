@@ -26,7 +26,7 @@ Follow these steps for completing your project.
 
 ## Task 3: Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank.  In order for you to see the styles for this project you must import them in a certain order.  That order is as follows:
+* [x] Navigate to your `index.less` file. Notice the file is blank.  In order for you to see the styles for this project you must import them in a certain order.  That order is as follows:
 
 1. `variables.less`
 2. `mixins.less`
@@ -54,5 +54,5 @@ Follow these steps for completing your project.
 * [ ] Introduce a form with inputs allowing users to select a vacation package and a submit button at the bottom of the page. Introduce inputs for name, email, phone number, and an area for them to leave special instructions. 
 * [ ] Style the site to look good at all sizes, not just desktop and phone
 
-
+Jordan Miller
 
