@@ -1,1 +1,18 @@
 // Mixins in here
+
+.parabutton(@width:83%, @bcolor:@actualbuttoncolor, @tcolor:white, @padding:5%, @radius:13px){
+    width: @width;
+    background-color: @bcolor;
+    color: @tcolor;
+    padding: @padding;
+    border-radius: @radius;
+    border: none;
+    font-size: 1.6rem;
+
+    &:hover{
+    background-color: @tcolor;
+    color: @bcolor;
+    font-weight: bold;
+    border: 1px solid @bcolor;
+    }
+}
