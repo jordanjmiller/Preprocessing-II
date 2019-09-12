@@ -16,3 +16,9 @@
     border: 1px solid @bcolor;
     }
 }
+.flashybackground(@name:flashy, @speed:1s, @loops:infinite){
+    animation-name: @name;
+    animation-duration: @speed;
+    animation-iteration-count: @loops;
+    animation-direction: alternate;
+}
